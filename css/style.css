@@ -1,0 +1,61 @@
+body {
+	font-family: helvetica, arial, sans-serif;
+	background-image: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+main {
+	background: rgba(255,255,255,0.8);
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 20px;
+}
+h1 {
+	text-align: center;
+	font-size: 80px;
+	font-family: 'Ranga', cursive;
+	text-shadow: 0 0 10px yellow;
+}
+h2 {
+	text-align: center;
+	letter-spacing: 5px;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+h3 {
+	cursor: pointer;
+}
+
+h3 + * {
+	display: none;
+}
+
+img	{
+	width: 200px;
+	border: 30px solid black;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.image {
+	text-align: center;
+}
+
+p,
+ul,
+ol {
+	line-height: 1.6;
+	padding-left: 0;
+	list-style: none;
+}
+a {
+	color: green;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover {
+	color:lightgreen;
+	text-decoration: underline;
+}
